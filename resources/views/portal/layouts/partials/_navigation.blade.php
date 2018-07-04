@@ -13,11 +13,6 @@
             </div>
         </div>
 
-        <div class="col-lg-4">
-            <div class="input-group"><input type="text" id="search-box" placeholder="Click here to search" class="form-control"></div>
-        </div>
-
-
         <div class="d-flex align-items-center">
             <ul class="hidden-md-down no-margin hidden-sm-down b-grey b-r no-style p-l-30 p-r-20">
                 <li class="p-r-10 inline">
@@ -81,7 +76,6 @@
                         </ul>
                     </li>
                 </ul>
-                <a href="#" class="search-link d-flex justify-content-between align-items-center hidden-lg-up" data-toggle="search">Tap here to search <i class="pg-search float-right"></i></a>
             </div>
         </div>
     </div>
@@ -90,25 +84,4 @@
 <!-- END PAGE HEADER WRAPPER -->
 
 @push('child-page-controller')
-<script>
-    $(document).ready(function () {
-        $('#logout-btn').on('click', function (e) {
-            e.preventDefault();
-            $('#logout-form').submit();
-        });
-
-        $('#search-box').on('click', function () {
-            $('#overlay-search').removeClass('hide');
-            $('#overlay-search-input-box').focus();
-        });
-
-        $('#search-box').keypress(function (e) {
-            return false
-        })
-
-        $('#close-search').click(function () {
-            $('#overlay-search').addClass('hide');
-        });
-    })
-</script>
 @endpush

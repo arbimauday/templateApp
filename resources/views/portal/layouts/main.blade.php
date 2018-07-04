@@ -37,8 +37,6 @@
 </div>
 
 <!-- END PAGE CONTAINER -->
-<div id="vc-searchMenu"></div>
-
 @include('portal.layouts.partials._footer')
 
 </body>
