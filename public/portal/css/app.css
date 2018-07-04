@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,600);.header-inner {
+  background-color: #0f1114 !important;
+}
+
+.box-shadow-header {
+  -webkit-box-shadow: 0px 0px 13px #5e5858;
+          box-shadow: 0px 0px 13px #5e5858;
+}
+
+.menu-bar ul li.active {
+  border-bottom: 2px solid #151515;
+}
+
+.menu-bar ul li a {
+  color: #101418;
+}
+
+/* Colors Background  */
+
+.bg-primary {
+  background-color: #121212 !important;
+}
+
+.bg-primary-dark {
+  background-color: #000 !important;
+}
+
+.pointer {
+  cursor: pointer !important;
+}
+
