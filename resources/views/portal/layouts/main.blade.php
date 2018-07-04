@@ -32,6 +32,7 @@
         <!-- END PAGE CONTENT -->
 
         @include('portal.layouts.partials._footer_in_page')
+
     </div>
     <!-- END PAGE CONTENT WRAPPER -->
 </div>
